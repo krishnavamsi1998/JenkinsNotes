@@ -1,0 +1,21 @@
+3
+
+Jenkins is a build factory. In other words, its primary use is to run tasks that dedicated to build, integrate and deliver applications. It's a typical DEVOPS tool.
+
+Jenkins can be used to build pipelines (sequences of tasks) or to be called from a pipeline (to execute one of the pipeline's tasks).
+
+The great thing about Jenkins is that it integrates nicely with other devops tools:
+
+SCM: SVN, Github, Gitlab
+Build: maven, gradle
+Test: Cucumber reports
+Quality: SonarQube
+Deployment: Octopus Deploy, XL Deploy, Run Deck...
+You name it!
+
+However, Jenkins is generally not used to "code" and "operated" applications.
+
+A typical pipeline would be:
+
+Try Pull Request => Build Release Candidate => Deploy RC on Integration => Deploy on Production
+This is a over simplified pipeline, just to give an idea of the scope of this tool. A production grade piepline should include security checks, and integrate nicely with human validation when needed.
