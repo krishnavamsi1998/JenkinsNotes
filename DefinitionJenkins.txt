@@ -1,4 +1,3 @@
-3
 
 Jenkins is a build factory. In other words, its primary use is to run tasks that dedicated to build, integrate and deliver applications. It's a typical DEVOPS tool.
 
